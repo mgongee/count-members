@@ -1,0 +1,75 @@
+html, body {
+	height:100%;
+}
+
+.ok {
+	color: green;
+}
+
+.error {
+	color: red;
+}
+
+.section {
+	margin: 50px 0;
+}
+
+footer {
+	margin: 50px 0;
+}
+
+table.tableResults th {
+	text-align: center;
+}
+
+
+table.tableResults th {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+table.tableResults th.thHeader {
+	text-align: center;
+}
+
+table.tableResults th.thHeader:nth-child(even) {
+	background: #CCDDDD;
+}
+table.tableResults th.thHeader:nth-child(odd) {
+	background: #DDDDDD;
+}
+
+table.tableResults th.thSubHeader:nth-child(even) {
+	background: #CCC;
+}
+
+table.tableResults th.thSubHeader:nth-child(odd) {
+	background: #FFF;
+}
+
+table.tableResults td:nth-child(even) {
+	background: #CCC;
+}
+
+table.tableResults td:nth-child(odd) {
+	background: #FFF;
+}
+
+table.tableResults tr.trData td {
+	font-size: 12px;
+	padding: 0px;
+	width: 46px;
+	height: 20px;
+	text-align: center;
+}
+
+table.tableResults tr.trData td.roleName {
+	background: #DDD;
+	width: 100px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px;	
+}
+
